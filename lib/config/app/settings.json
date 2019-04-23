@@ -1,0 +1,44 @@
+{
+    "socket": {
+        "connect": "connect",
+        "joined": "joined",
+        "error": "error",
+        "disconnect": "disconnect",
+        "candleDataEvent": "candleDataEvent",
+        "marketDepth100Event": "marketDepth100Event",
+        "openInterestEvent": "openInterestEvent",
+        "marketDepthEvent": "marketDepthEvent",
+        "indexDataEvent": "indexDataEvent",
+        "logout": "logout"
+    },
+    "restApi": {
+        "login": "/auth/login",
+        "logout": "/auth/logout",
+        "clientConfig": "/config/clientConfig",
+        "quotes": "/instruments/quotes",
+        "subscription": "/instruments/subscription",
+        "searchInstrumentsById": "/search/instrumentsbyid",
+        "searchInstruments": "/search/instruments"
+    },
+    "enums": {
+        "segments": {
+            "NSECM": 1,
+            "NSEFO": 2,
+            "NSECD": 3,
+            "BSECM": 11,
+            "BSEFO": 12,
+            "BSECD": 13,
+            "NCDEX": 21,
+            "MSEICM": 41,
+            "MSEIFO": 42,
+            "MSEICD": 43
+        },
+        "marketDataPorts": {
+            "marketDepthEvent": 1502,
+            "indexDataEvent": 1504,
+            "candleDataEvent": 1505,
+            "openInterestEvent": 1510,
+            "marketDepthEvent100": 5018
+        }
+    }
+}

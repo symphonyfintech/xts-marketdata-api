@@ -1,0 +1,9 @@
+{
+   "userID": "AJITKUMAR1",
+    "password": "Abcd@123",
+    "publicKey": "e4d325f26ce52278",
+    "source": "WEBAPI",
+    "url": "http://103.69.169.10:10521"
+    "publishFormat": "JSON",
+    "broadcastMode": "Partial"
+}
