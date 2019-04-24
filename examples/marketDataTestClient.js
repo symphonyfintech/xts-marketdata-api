@@ -106,7 +106,7 @@ async function testAPI() {
             }
         ],
         marketDataPort: xtsMarketDataAPI.marketDataPorts.marketDepthEvent,
-        publishFormat: xtsMarketDataAPI.publishFormat.JSON
+        publishFormat: "JSON"
     }
 
     await getQuotes(getQuotesRequest);
